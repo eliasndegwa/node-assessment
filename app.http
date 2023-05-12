@@ -1,0 +1,13 @@
+#get all users
+GET http://localhost:4000/users
+
+###
+#register one user
+POST http://localhost:4000/users
+Content-Type: application/json
+
+{
+    "username":"Queen Charlotte",
+    "email":"lotte@example.com",
+    "password":"QE58*gucLu#xRI5#"
+}
